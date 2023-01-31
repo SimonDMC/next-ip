@@ -10,7 +10,7 @@ export default function () {
         (
             <div
                 style={{
-                    fontSize: 128,
+                    fontSize: 150,
                     background: "transparent",
                     color: "white",
                     width: "100%",
@@ -19,6 +19,7 @@ export default function () {
                     textAlign: "center",
                     alignItems: "center",
                     justifyContent: "center",
+                    fontFamily: "Arial, Helvetica, sans-serif",
                 }}
             >
                 {`${Math.floor(Math.random() * 255)}.${Math.floor(
@@ -30,7 +31,7 @@ export default function () {
         ),
         {
             width: 1200,
-            height: 600,
+            height: 200,
             headers: {
                 // disable caching
                 "Cache-Control":
