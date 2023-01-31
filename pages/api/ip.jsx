@@ -31,6 +31,11 @@ export default function () {
         {
             width: 1200,
             height: 600,
+            headers: {
+                // disable caching
+                "Cache-Control":
+                    "no-store max-age=0 s-maxage=0 must-revalidate",
+            },
         }
     );
 }
