@@ -29,11 +29,7 @@ export default async function handler(req: NextRequest) {
                         transform: "translateY(-5px)",
                     }}
                 >
-                    {`${Math.floor(Math.random() * 255)}.${Math.floor(
-                        Math.random() * 255
-                    )}.${Math.floor(Math.random() * 255)}.${Math.floor(
-                        Math.random() * 255
-                    )}`}
+                    {req.ip ?? "219.70.135.148"}
                 </span>
             </div>
         ),
