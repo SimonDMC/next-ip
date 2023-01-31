@@ -13,12 +13,6 @@ export default function () {
                     fontSize: 150,
                     background: "transparent",
                     color: "white",
-                    width: "100%",
-                    height: "100%",
-                    display: "flex",
-                    textAlign: "center",
-                    alignItems: "center",
-                    justifyContent: "center",
                     fontFamily: "Arial, Helvetica, sans-serif",
                 }}
             >
